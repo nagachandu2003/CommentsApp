@@ -1,0 +1,77 @@
+/* Write your CSS here */
+body {
+  margin: 0;
+  padding: 0;
+}
+.bg {
+  background-color: #ffffff;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  color: #1e293b;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #1e293b;
+  font-weight: bold;
+}
+.button2 {
+  background-color: #0284c7;
+  color: #dee0e3;
+  border-width: 0;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+input,
+textarea {
+  outline: none;
+  border: 1px solid #475569;
+  cursor: hand;
+  margin: 5px;
+  padding: 8px;
+  width: 30vw;
+  border-radius: 5px;
+}
+.commentsimage {
+  height: 50vh;
+  order: 1;
+}
+
+@media (max-width: 767px) {
+  input,
+  textarea {
+    width: 80vw;
+  }
+  .commentsimage {
+    width: 80vw;
+  }
+}
+.line {
+  border: 1px solid #475569;
+}
+.tot-comment {
+  background-color: #0284c7;
+  padding: 5px;
+  color: #dee0e3;
+}
+
+@media (min-width: 768px) {
+  .flexi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.he {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.list-container {
+  list-style-type: none;
+  padding-left: 0;
+}
